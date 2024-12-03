@@ -1,0 +1,25 @@
+
+.landing {
+    width: 100vw;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+.custom-toast {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: #764ba2; /* Ensures text is visible on the dark gradient */
+    border-radius: 8px;
+    padding: 16px; /* Optional: Adjust padding to suit your design */
+}
+
+.custom-close-button {
+    background-color: #ffffff30; /* Semi-transparent white */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 4px 8px;
+    margin-left: 8px;
+}

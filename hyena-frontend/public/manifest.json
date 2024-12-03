@@ -1,0 +1,15 @@
+{
+  "short_name": "Hyena",
+  "name": "Laughing Hyena",
+  "icons": [
+    {
+      "src": "logo.svg",
+      "sizes": "64x64",
+      "type": "image/svg"
+    }
+  ],
+  "start_url": "https://hyenapresale.com",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
